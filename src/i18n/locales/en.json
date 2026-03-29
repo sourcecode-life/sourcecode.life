@@ -6,6 +6,7 @@
   "nav": {
     "home": "Home",
     "what": "What",
+    "why": "Why",
     "how": "How"
   },
   "hero": {
@@ -16,8 +17,8 @@
   "concepts": {
     "title": "Core Concepts",
     "appVsLife": {
-      "title": "App vs. Life: A Two-Layer Model",
-      "description": "You don't fix an app at the interface. You fix it in the source code. Life is no different. Just as apps run on operating systems, our behaviors run on deeper life patterns."
+      "title": "Fix the Source Code, Not the Interface",
+      "description": "You don't fix an app at the interface. You fix it in the source code. Life is no different.<br><br>To transform your reality, you must rewrite the underlying code of the self—the <span class=\"text-green-400\">quantum code of the soul</span>."
     },
     "fur": {
       "title": "FUR: The Inner Evolution Model",
