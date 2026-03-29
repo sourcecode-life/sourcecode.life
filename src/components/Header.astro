@@ -17,25 +17,29 @@ const t = useTranslations(lang);
     <div class="flex items-center gap-4 sm:gap-6">
       <a
         href="#what"
-        class="text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
+        data-section="what"
+        class="nav-link text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
       >
         {t('nav.what')}
       </a>
       <a
         href="#why"
-        class="text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
+        data-section="why"
+        class="nav-link text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
       >
         {t('nav.why')}
       </a>
       <a
         href="#how"
-        class="text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
+        data-section="how"
+        class="nav-link text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
       >
         {t('nav.how')}
       </a>
       <a
         href="#goal"
-        class="text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
+        data-section="goal"
+        class="nav-link text-gray-300 hover:text-green-400 transition-colors text-sm sm:text-base"
       >
         {t('nav.goal')}
       </a>
@@ -43,3 +47,45 @@ const t = useTranslations(lang);
     </div>
   </nav>
 </header>
+
+<style>
+  .nav-link.active {
+    color: #4ade80;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('div[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '-20% 0px -60% 0px',
+      threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach((link) => {
+            link.classList.remove('active');
+            if (link.getAttribute('data-section') === id) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach((section) => {
+      if (['what', 'why', 'how', 'goal'].includes(section.id)) {
+        observer.observe(section);
+      }
+    });
+  });
+</script>
