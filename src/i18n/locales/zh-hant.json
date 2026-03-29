@@ -7,7 +7,8 @@
     "home": "首頁",
     "what": "是什麼",
     "why": "為什麼",
-    "how": "怎麼做"
+    "how": "怎麼做",
+    "goal": "目標"
   },
   "hero": {
     "tagline": "你的人生可以編程",
@@ -30,12 +31,12 @@
       "description": "應用程式由<span class=\"text-green-400\">二進位</span>代碼構建。現實由<span class=\"text-green-400\">量子</span>代碼（能量）編譯而成。"
     },
     "hawkins": {
-      "title": "霍金斯能量層級圖：意識的頻譜",
-      "description": "大衛·霍金斯博士將人類意識繪製為能量頻率的光譜。從羞恥（20）到開悟（700+），每個層級代表不同的振動狀態。提升你的能量層級，就像升級靈魂的運行頻率。"
+      "title": "內在進化的度量",
+      "description": "霍金斯能量層級將意識量化為能量等級。<span class=\"text-yellow-400 font-semibold\">Fix</span> 清除低層狀態，<span class=\"text-green-400 font-semibold\">Upgrade</span> 提升你的層級，<span class=\"text-blue-400 font-semibold\">Run</span> 將結果表達為體驗。"
     }
   },
   "footer": {
-    "copyright": "© 2026 源代碼人生",
+    "copyright": "© 2026 SourceCode.Life",
     "tagline": "重寫你的源代碼，升級你的生命。"
   }
 }

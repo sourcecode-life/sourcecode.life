@@ -7,7 +7,8 @@
     "home": "Home",
     "what": "What",
     "why": "Why",
-    "how": "How"
+    "how": "How",
+    "goal": "Goal"
   },
   "hero": {
     "tagline": "Your life is programmable",
@@ -30,8 +31,8 @@
       "description": "Apps are built from <span class=\"text-green-400\">binary</span> code. Reality is compiled from <span class=\"text-green-400\">quantum</span> code (energy)."
     },
     "hawkins": {
-      "title": "The Hawkins Scale: Energy Levels of Consciousness",
-      "description": "Dr. David Hawkins mapped human consciousness as a spectrum of energy frequencies. From shame (20) to enlightenment (700+), each level represents a distinct vibrational state. Raising your energy level is like upgrading your soul's operating frequency."
+      "title": "The Metrics of Inner Evolution",
+      "description": "The Hawkins Scale measures consciousness as energy levels. <span class=\"text-yellow-400 font-semibold\">Fix</span> clears lower states, <span class=\"text-green-400 font-semibold\">Upgrade</span> raises your level, and <span class=\"text-blue-400 font-semibold\">Run</span> expresses the result in experience."
     }
   },
   "footer": {

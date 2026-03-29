@@ -7,7 +7,8 @@
     "home": "首页",
     "what": "是什么",
     "why": "为什么",
-    "how": "怎么做"
+    "how": "怎么做",
+    "goal": "目标"
   },
   "hero": {
     "tagline": "你的人生可以编程",
@@ -30,12 +31,12 @@
       "description": "应用程序由<span class=\"text-green-400\">二进制</span>代码构建。现实由<span class=\"text-green-400\">量子</span>代码（能量）编译而成。"
     },
     "hawkins": {
-      "title": "霍金斯能量层级图：意识的频谱",
-      "description": "大卫·霍金斯博士将人类意识绘制为能量频率的光谱。从羞耻（20）到开悟（700+），每个层级代表不同的振动状态。提升你的能量层级，就像升级灵魂的运行频率。"
+      "title": "内在进化的度量",
+      "description": "霍金斯能量层级将意识量化为能量等级。<span class=\"text-yellow-400 font-semibold\">Fix</span> 清除低层状态，<span class=\"text-green-400 font-semibold\">Upgrade</span> 提升你的层级，<span class=\"text-blue-400 font-semibold\">Run</span> 将结果表达为体验。"
     }
   },
   "footer": {
-    "copyright": "© 2026 源代码人生",
+    "copyright": "© 2026 SourceCode.Life",
     "tagline": "重写你的源代码，升级你的生命。"
   }
 }
