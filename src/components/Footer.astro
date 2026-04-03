@@ -37,6 +37,11 @@ const t = useTranslations(lang);
     <!-- Contact & copyright (shown second on mobile, left side on desktop) -->
     <div class="order-last md:order-first text-left">
       <p class="text-sm mb-2">
+        {lang === 'en' && <><span class="text-gray-500">Like this idea? </span><a href="https://github.com/sourcecode-life/sourcecode.life" target="_blank" class="text-green-400 hover:text-white transition-colors">Star us on GitHub</a></>}
+        {lang === 'zh-hans' && <><span class="text-gray-500">喜欢这个理念？</span><a href="https://github.com/sourcecode-life/sourcecode.life" target="_blank" class="text-green-400 hover:text-white transition-colors">在 GitHub 上给我们 Star</a></>}
+        {lang === 'zh-hant' && <><span class="text-gray-500">喜歡這個理念？</span><a href="https://github.com/sourcecode-life/sourcecode.life" target="_blank" class="text-green-400 hover:text-white transition-colors">在 GitHub 上給我們 Star</a></>}
+      </p>
+      <p class="text-sm mb-2">
         <span class="text-gray-500">{lang === 'en' ? 'Contact: ' : '联系：'}</span><a href="mailto:rewrite@sourcecode.life" class="text-green-400 font-mono hover:text-white transition-colors">rewrite@sourcecode.life</a>
       </p>
       <p class="text-gray-500 text-sm">
